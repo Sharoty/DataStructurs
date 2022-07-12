@@ -1,0 +1,16 @@
+{
+    "first_name": "sharoty",
+    "last_name": "kankuli",
+    "phone_number": "+260974668477",
+    "@mail": "sharotykmweemba@gmail.com",
+
+    "education":[
+ {
+    "school":"macson",
+    "duration": "2019-2021",
+    "qualification": "deploma"
+ }
+],
+"skill": [{"skill_name": "python",
+"rate": 5}]
+}
