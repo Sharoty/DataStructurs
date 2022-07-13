@@ -24,12 +24,14 @@ Always ensure that all the listed items are in squared brackets and are separete
 
            DICTIONARY NOTES
  A dictionary is used to store data values in key : value pairs. They are an unordered sequence of items key-value pairs, which means the order is not preserved. 
- A dictionary is an collection of an unordered items that are placed in the curly {} braces, separated by comas and a paired using keys : values pairs.The keys and the values are separated by full collouns  
-The dictionary uses the value to assess information .
+ A dictionary is an collection of an unordered items that are placed in the curly {} braces, separated by comas and a paired using keys : values pairs.The keys and the values are separated by full colons. 
+The dictionary uses the value to access information .
 
    Examples of a dictionary
   -num = {1:"one",2:"two",3:"three,4:"four"}
   -print(num[2])
+  
+  Nested dictionary
   
   _family = {
     "child1":{

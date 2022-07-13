@@ -1,5 +1,5 @@
-{
-    "first_name": "sharoty",
+person_info = {
+"first_name": "sharoty",
     "last_name": "mweemba",
     "phone_number": "+260974668477",
     "@mail": "sharotykmweemba@gmail.com",
@@ -39,6 +39,10 @@
     "number":"+427751741",
     "email":"giftmusonda@gmail.com",
     "position":"human resorce manager"  
-   }
-]
+   }]
+
 }
+print(person_info['reference'])
+print(person_info['reference'][0]['email'])
+print(person_info['skill'][1])
+print(person_info['skill'][1]['rate'])
