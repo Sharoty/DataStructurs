@@ -1,0 +1,25 @@
+Git  is an open and easy source distributed code that is used to manage and control system to hundle all kinds of project.
+           Git Commands
+- Git init this is the command that is used to set up a new repository.
+It can be used to convert an existing, unversioned project to a Git repository or set up a new, empty repository. Most other Git commands are not available outside an repository, so this is usually the first command you'll run in a new repository or project.
+- Git clone this is the command used to generate a repository from the identical copy.
+This is simply getting a copy of the orginal copy to a new repository and the original copy is located on the local repository.  
+- Git add [file] this command is used to updates the index file on the current repository.
+It adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next save. It only commands to uploads the named file. 
+Git add* uploads all the files in the repository at that stage.
+The add* command is only used when you want to upload all the files in the repository.
+- Git status this command displays state of the work and it's staging
+ It display the state of the repository and staging area. It allows us to see the tracked, untracked files and changes.
+- Git rm is used to remove a file from repository.
+The git rm command removes files both from the Git repository as well as the filesystem.
+- Git checkout is used for the act of moving between different versions of a repository.
+The git checkout command lets you move between the branches created by git branch . Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch.
+- Git branch this is the command that is used to show a repository.
+This command allows the create, list rename and delete the branches.
+- Git pull  this commands is used to retrieve and download content from a remote repository and immediately update the local repository to match that content.
+- Git push command is used to upload local repository content to a remote repository.
+- Git commit this command is used to save the changes in the current project at a given stage.
+Git commit -a this command saves all the files and all the changes that will be made in the file.
+Git commit -a saves all information and changes that comes the command has been made in the repository and save it in the current file. 
+Git commit -m this command saves the repository permanant is the previous file.
+The git commit -m command is used to save the information that was in the previous file before it was commanded. 
